@@ -411,7 +411,8 @@ if HF_USERNAME:
     HF_USERNAME = HF_USERNAME.strip()
 base_path = os.path.abspath(os.path.dirname(__file__))
 model_dir = os.path.join(base_path, model_id.split('/')[-1])
-model_cache_local_path = get_hfd_file_path()
+# model_cache_local_path = get_hfd_file_path()
+model_cache_local_path = "./"
 os.chdir(model_cache_local_path)
 print("----->end-环境检查完毕正常")
 print("--->开始拉起下载模型数据并发任务")
