@@ -1,3 +1,10 @@
+非官方版本
+
+### 修改模型下载位置
+
+官方版本下载位置为.cache文件夹，此版本将下载位置设置为./，命令执行目录
+
+
 ### hf-mirror-cli 介绍
 由于 huggingface的仓库地址位于海外，每次下载dataset和model 太慢了，于是抽空开发了一个可以在windows开发环境，快速拉取huggingface 平台上的数据工具
 
